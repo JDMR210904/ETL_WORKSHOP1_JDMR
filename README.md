@@ -1,6 +1,6 @@
 # ETL Workshop-1 — Data Engineer (Python + SQLite)
 
-> **Goal:** Build an ETL pipeline that reads a 50k-row CSV, applies the **HIRED** rule (both scores ≥ 7), loads the data into a **Data Warehouse** with a **star schema**, and produces **KPIs + charts**, querying the **DW (not the CSV)**.
+> **Goal:** Build an ETL pipeline that reads a 50k-row CSV, applies the **HIRED** rule (both scores ≥ 7), loads into a **Data Warehouse** with a **star schema**, and produces **KPIs + charts** querying the **DW (not the CSV)**.
 
 ---
 
@@ -11,6 +11,7 @@ This project uses a single command to run everything:
 ```bash
 python run_all.py --rebuild
 
+```
 
 ## Project Layout
 
@@ -36,6 +37,13 @@ etl_workshop/
 - Python 3.10+
 - `pip install -r requirements.txt`
 - Note: Jupyter is **not required**. This repo uses **scripts**.
+
+### 💻 To install them:
+
+```bash
+pip install -r requirements.txt
+
+```
 
 ## How to Run
 
