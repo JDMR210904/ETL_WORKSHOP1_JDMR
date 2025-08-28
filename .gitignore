@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DB/Artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Visualization outputs
+kpi/figs/
+visuals/
+docs/*.html
