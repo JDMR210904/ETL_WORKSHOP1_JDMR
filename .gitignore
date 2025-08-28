@@ -22,3 +22,6 @@ Thumbs.db
 kpi/figs/
 visuals/
 docs/*.html
+
+data/candidates.csv
+kpi/out/
